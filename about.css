@@ -1,0 +1,47 @@
+ #About{
+       text-align: center;
+      }
+
+    .profileimg{
+                height: 120px;
+                width:120px;
+                object-fit:cover;
+                border: 5px solid white;
+                border-radius:60px;
+                box-shadow: 6px 13px 5px -8px grey ;
+               }
+    h2{
+       color: #36454f;
+       padding: 10px;
+      }
+
+    .socialmedia{
+                 display: flex;
+                 list-style-type: none;
+                 justify-content: center;
+                }
+
+    .self{
+          color: #36454F;
+          font-size: 17px;
+          font-weight: bold;
+          padding: 10px;
+         }
+    
+    .self2{
+           color: grey;
+           font-size: 16px;
+          }
+    
+@media  only screen and ( max-width:425px) {
+                
+        #Home{
+             margin-top: 100px;
+             text-align: center;
+             }
+             .profile{
+              width: auto;
+              margin: 20px;
+             }
+      }
+    
