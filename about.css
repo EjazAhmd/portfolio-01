@@ -1,0 +1,11 @@
+@media  only screen and ( max-width:425px) {
+                
+    #Home{
+         margin-top: 100px;
+         text-align: center;
+         }
+         .profile{
+          width: auto;
+          margin: 20px;
+         }
+  }
