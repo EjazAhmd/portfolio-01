@@ -1,12 +1,33 @@
 @media  only screen and ( max-width:425px) {
                 
-        #about{
-             margin-top: 100px;
-             text-align: center;
+#about{
+       margin-top: 100px;
+       text-align: center;
+       }
+
+.socialmedia{
+             display: flex;
+             list-style-type: none;
+             justify-content: center;
+             padding:0;
              }
-             .profileimg{
-              width: 350px;
-              margin: 20px;
-             }
-      }
-    
+.profileimg{
+	    border-radius:63px;
+            object-fit:cover;
+            border: 5px solid white;
+            box-shadow: 6px 13px 5px -8px grey;
+            }
+
+h2{
+   color: #36454f;
+   padding: 10px;
+   }
+
+p{
+  color: grey;
+  font-size: 16px;
+  font-weight:bold;
+  padding:5px;
+  }
+
+}
