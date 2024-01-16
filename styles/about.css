@@ -1,0 +1,31 @@
+#about{
+       text-align: center;
+      }
+
+    .profileimg{
+                height: 120px;
+                width:120px;
+                object-fit:cover;
+                border: 5px solid white;
+                border-radius:62px;
+                box-shadow: 6px 10px 5px -8px grey ;
+               }
+    h2{
+       color: var(--secondary-font-color: #888);
+       padding: 10px;
+      }
+
+     p{
+       color: var(--primary-font-color: #666);
+       font-size: 17px;
+       font-weight: bold;
+       padding: 10px;
+       }
+
+
+    .socialmedia{
+                 display: flex;
+                 list-style-type: none;
+                 justify-content: center;
+                }
+
